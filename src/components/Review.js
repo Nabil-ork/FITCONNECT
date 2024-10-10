@@ -11,7 +11,7 @@ class Review extends Component {
           <div className='p-4 pb-2 flex-grow-1'>
             <div className='text-center'>
               <Image 
-                src="//images/fiveStar.svg"
+                src="public/images/fiveStar.svg"
                 alt="Five Star Review Rating"
                 height={38}
                 width={208}
