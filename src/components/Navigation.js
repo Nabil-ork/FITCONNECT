@@ -8,7 +8,7 @@ class Navigation extends Component {
       <nav className="navbar bg-primary">
         <Link className="navbar-brand" href="/">
           <Image 
-            src="/images/RoadsTextWhite.png"
+            src="images/RoadsTextWhite.png"
             alt="Roads Logo"
             height={50}
             width={125}
