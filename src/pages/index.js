@@ -18,17 +18,7 @@ export default function Home() {
           subtitle="Roads Audio brings you closer to your friends through deep, podcast-like conversations, letting you connect meaningfully on your time."
         />
 
-        <div className='text-center'>
-          <h2 className="h2-lg my-lg my-lg">Watch The Demo</h2>
-          
-          <iframe 
-            className="youtube-video"
-            src="https://www.youtube.com/embed/w_H7ooZYnAY" 
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-            loading='eager'
-            >
-          </iframe>
-        </div>
+
 
          <div id={styles.section_reviews}>
           <h2 className="h2-lg my-lg text-center">What People Are Saying</h2>
@@ -65,13 +55,13 @@ export default function Home() {
         </div>
 
         <div className='text-center py-5 mt-5 bg-graident'>
-          <Link href="https://www.f6s.com/roads-audio" target="_blank">
-            <Image 
-              src="/images/f6s.png"
+          <Link href="#">
+            /*<Image 
+              src=""
               alt="Top Telecom startups in Virginia"
               height={60}
               width={291}
-            />
+            />*/
           </Link>
         </div>
  
@@ -83,8 +73,8 @@ export default function Home() {
               <div className={`${styles.backsplash_container} col-md-6 col-lg-4 text-center`} >
                 <div className={`${styles.backsplash} mx-auto`}></div>
                 <Image 
-                  src="/images/phones/device_15_player_simple2.png" 
-                  alt="Screenshot of Roads app showing the main player with several comments."
+                  src="images/phones/device_15_player_simple2.png" 
+                  alt="Screenshot of FitConnect app showing the main player with several comments."
                   height={400}
                   width={200}
                   className={`${styles.backsplash_image} phone_shadow`}
@@ -103,8 +93,8 @@ export default function Home() {
               <div className={`${styles.backsplash_container} col-md-6 col-lg-4 offset-lg-1 text-center`} >
                 <div className={`${styles.backsplash} mx-auto`}></div>
                 <Image 
-                  src="/images/phones/device_15_player_nested.png" 
-                  alt="Screenshot of Roads app showing the home page where new comments left by other users can be listened to."
+                  src="images/phones/device_15_player_nested.png" 
+                  alt="Screenshot of FitConnect app showing the home page where new comments left by other users can be listened to."
                   height={400}
                   width={200}
                   className={`${styles.backsplash_image} phone_shadow`}
@@ -120,7 +110,7 @@ export default function Home() {
               <div className={`${styles.backsplash_container} col-md-6 col-lg-4 text-center`} >
                 <div className={`${styles.backsplash} mx-auto`}></div>
                 <Image 
-                  src="/images/phones/device_15_channel_invite.png" 
+                  src="images/phones/device_15_channel_invite.png" 
                   alt="Screenshot of Roads app showing how to select friends to add to a channel."
                   height={400}
                   width={200}
@@ -142,27 +132,27 @@ export default function Home() {
           <div className="container">
             <div className="row">
               <UseCase 
-                imagePath="/images/icons/note.svg"
+                imagePath="images/icons/note.svg"
                 title="Record voice notes for yourself"
               />
               <UseCase 
-                imagePath="/images/icons/chat.svg"
+                imagePath="images/icons/chat.svg"
                 title="Chat with a friend asynchronously"
               />
               <UseCase 
-                imagePath="/images/icons/book.svg"
+                imagePath="images/icons/book.svg"
                 title="Create a virtual book club"
               />
               <UseCase 
-                imagePath="/images/icons/lecture.svg"
+                imagePath="images/icons/lecture.svg"
                 title="Record a lecture and answer questions"
               />
               <UseCase 
-                imagePath="/images/icons/team.svg"
+                imagePath="images/icons/team.svg"
                 title="Share weekly updates with your team"
               />
               <UseCase 
-                imagePath="/images/icons/podcast.svg"
+                imagePath="images/icons/podcast.svg"
                 title="Co-create podcasts with others"
               />
             </div>
