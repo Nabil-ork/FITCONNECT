@@ -10,8 +10,8 @@ class Navigation extends Component {
           <Image 
             src="images/RoadsTextWhite.png"
             alt="Roads Logo"
-            height={50}
-            width={125}
+            height={110}
+            width={210}
           />
         </Link>
       </nav>
