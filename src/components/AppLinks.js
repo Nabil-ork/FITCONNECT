@@ -15,7 +15,7 @@ class AppLinks extends Component {
   render() {
     const { forNav } = this.props;
     const appleLink = "https://apps.apple.com/us/app/"
-    const googleLink = "https://play.google.com/store/apps/
+    const googleLink = "https://play.google.com/store/apps/"
     return (
       <div className="my-3 mx-auto text-center">
         <Link href={appleLink} onClick={ () => this.trackClickGA("AppStoreLinkClick") }>
