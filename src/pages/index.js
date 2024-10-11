@@ -14,8 +14,8 @@ export default function Home() {
       <main className={styles.main}>        
         <NodeOverlay />
         < Hero 
-          title="Have Deeper Conversations"
-          subtitle="Roads Audio brings you closer to your friends through deep, podcast-like conversations, letting you connect meaningfully on your time."
+          title="FitConnect"
+          subtitle="Votre application mobile de Coaching Fitness Personnalisé."
         />
 
 
@@ -25,29 +25,29 @@ export default function Home() {
           <div className="container">
             <div className="row">
               <Review 
-                body="Roads allows you to use your voice to stay connected with the world. The app is designed beautifully and is really intuitive."
-                name="Nolanmakatche"
+                body="FitConnect a complètement transformé ma routine de fitness—les entraînements personnalisés me motivent vraiment !"
+                name="AMINA"
               />
               <Review 
-                body="I first started using this app with a friend and it's a lot of fun. We use this app now instead of texting or voicemails since we are both traveling and it makes keeping up with each other a lot easier."
-                name="Sethconner10"
+                body="Le coaching personnalisé est incroyable ! J'ai vu de vrais progrès en seulement quelques semaines."
+                name="Intissar"
               />
               <Review 
-                body="One of the coolest apps I've used in a long time. A great way to communicate with family and friends."
-                name="neenu17"
+                body="Les plans d'entraînement de FitConnect sont parfaitement adaptés à mes objectifs, je retrouve le plaisir de m'entraîner !"
+                name="Anouar"
               />
               <Review 
-                body="A game changer, the interactive audio comments bring conversations to life. It's been super fun chatting with my friends from all around the world on Roads."
-                name="makk1ntosh"
+                body="J'adore l'approche personnalisée ! C'est comme avoir un vrai coach à mes côtés 24/7."
+                name="LINA"
               />
               <Review 
-                body="I've tried a lot of chat apps and didn't think Roads would be any different. Glad I gave it a chance because it's much better than I expected!"
-                name="LFO16"
+                body="FitConnect rend si facile de rester régulier avec des entraînements conçus juste pour moi !"
+                name="MELISSA"
                 className="d-none d-md-block"
               />
               <Review 
-                body="I was not expecting to use this app as much as I have. It really pulls you in once you start using it!"
-                name="Jengla11"
+                body="Enfin une appli fitness qui comprend mes besoins et s’adapte à mes progrès !"
+                name="MOHAMMED"
                 className="d-none d-md-block"
               />
             </div>
@@ -59,7 +59,7 @@ export default function Home() {
         </div>
  
         <div id={styles.section_features}>
-          <h2 className="h2-lg my-lg text-center">How Roads Is Unique</h2>
+          <h2 className="h2-lg my-lg text-center">Ce qui rend FitConnect unique</h2>
 
           <div className="container">
             <div className="row justify-content-md-center">
@@ -67,7 +67,7 @@ export default function Home() {
                 <div className={`${styles.backsplash} mx-auto`}></div>
                 <Image 
                   src="images/phones/device_15_player_simple2.png" 
-                  alt="Screenshot of FitConnect app showing the main player with several comments."
+                  alt="Screenshot of FitConnect app s."
                   height={400}
                   width={200}
                   className={`${styles.backsplash_image} phone_shadow`}
@@ -75,9 +75,9 @@ export default function Home() {
               </div>
 
               <div className='col-md-6 col-lg-4 offset-lg-1 my-auto text-center text-md-start'>
-                <h3>Interactive Conversations</h3>
+                <h3>Un planning Interactive</h3>
                   <p>
-                    Comment on audio with your voice, creating a completely new layered communication experience.
+                    Sur FitConnect, vous pouvez consulter votre planning d'entraînement quotidien en un clin d'œil.
                   </p>
               </div>
             </div>
@@ -87,15 +87,15 @@ export default function Home() {
                 <div className={`${styles.backsplash} mx-auto`}></div>
                 <Image 
                   src="images/phones/device_15_player_nested.png" 
-                  alt="Screenshot of FitConnect app showing the home page where new comments left by other users can be listened to."
+                  alt="Screenshot of FitConnect app ."
                   height={400}
                   width={200}
                   className={`${styles.backsplash_image} phone_shadow`}
                 />
               </div>
                <div className='col-md-6 col-lg-4 my-auto order-md-first text-center text-md-start'>
-                <h3>Always Have Context</h3>
-                <p>When listening to a comment know exactly what's being referenced, and easily navigate the asynchronous conversation.</p>
+                <h3>Posts Communautaires</h3>
+                <p>vous pouvez facilement faire défiler et voir les posts des autres utilisateurs. Partagez et inspirez-vous de la communauté !</p>
               </div>
             </div>
 
@@ -112,8 +112,8 @@ export default function Home() {
               </div>
 
               <div className='col-md-6 col-lg-4 offset-lg-1 my-auto text-center text-md-start'>
-                <h3>Control Access</h3>
-                <p>You control who has access to your content through channels. Only invited members can listen and collaborate on your conversations.</p>
+                <h3>CContact Direct</h3>
+                <p>ommuniquez directement avec votre coach via l'application. Posez vos questions, recevez des conseils personnalisés et restez motivé tout au long de votre parcours fitness !</p>
               </div>
             </div>
 
@@ -126,27 +126,27 @@ export default function Home() {
             <div className="row">
               <UseCase 
                 imagePath="images/icons/note.svg"
-                title="Record voice notes for yourself"
+                title="Accédez à des coachs et nutritionnistes certifiés par FitConnect"
               />
               <UseCase 
                 imagePath="images/icons/chat.svg"
-                title="Chat with a friend asynchronously"
+                title="Rejoignez une communauté passionnée par le fitness et le bien-être."
               />
               <UseCase 
                 imagePath="images/icons/book.svg"
-                title="Create a virtual book club"
+                title="Trouvez des salles de sport et des coachs près de chez vous."
               />
               <UseCase 
                 imagePath="images/icons/lecture.svg"
-                title="Record a lecture and answer questions"
+                title="Gérez facilement votre abonnement aux salles de sport à proximité."
               />
               <UseCase 
                 imagePath="images/icons/team.svg"
-                title="Share weekly updates with your team"
+                title="Profitez de FitConnect gratuitement sur votre mobile."
               />
               <UseCase 
                 imagePath="images/icons/podcast.svg"
-                title="Co-create podcasts with others"
+                title="Recevez des conseils adaptés pour atteindre vos objectifs fitness."
               />
             </div>
           </div>
@@ -160,42 +160,38 @@ export default function Home() {
               <div className="accordion" id="faq_accordion">
                 <FaqItem 
                   itemNum="one"
-                  question="How do I start a conversation on Roads?"
-                  answer="You simply hit record in the app and start talking. After you finish recording you can add a title and share your recording in a channel so others can listen."
+                  question="Qu'est-ce que FitConnect ?"
+                  answer="FitConnect est une application mobile gratuite qui offre un coaching fitness personnalisé et un accès à une communauté dynamique."
                 />
                 <FaqItem 
                   itemNum="two"
-                  question="Who can join my channels?"
-                  answer="Channels can be joined by anyone the channel owner chooses. If you are friends with someone on Roads you can add them to a channel automatically, if not you can send them a channel invite link. The channel owner controls who is in the channel."
+                  question="Comment puis-je me connecter avec un coach ?"
+                  answer="Vous pouvez envoyer un message directement à votre coach via l'application pour obtenir des conseils et du soutien."
                 />
                 <FaqItem 
                   itemNum="three"
-                  question="How do I listen to comments that have been added to a conversation?"
-                  answer="When listening to a conversation if there is a comment, you'll have to option to take the road and listen to the comment. If you decide to listen, when the comment completes playing the original conversation will continue."
+                  question="Est-ce que FitConnect propose des plans d'entraînement personnalisés ?"
+                  answer="Oui, FitConnect crée des plans d'entraînement adaptés à vos objectifs et à votre niveau de fitness."
                 />
                 <FaqItem 
                   itemNum="four"
-                  question="What is the maximum recording length?"
-                  answer="Conversations and comments can be any length."
+                  question="Puis-je trouver des salles de sport à proximité ?"
+                  answer="Oui, l'application vous permet de localiser des salles de sport et des coachs près de chez voush."
                 />
                 <FaqItem 
                   itemNum="five"
-                  question="Can I edit or delete my recordings?"
-                  answer="There will be no support for editing audio in the initial version. However, you can always delete a recording that you create."
+                  question="L'application est-elle gratuite ?"
+                  answer="Oui, FitConnect est entièrement gratuite à télécharger et à utiliser, Mais le versions payant."
                 />
                 <FaqItem 
                   itemNum="seven"
-                  question="Does the app offer a free trial or a freemium version?"
-                  answer="Roads will always have a free version where all the core features will be available. Premium features will also be made available for a small fee."
+                  question="FitConnect propose-t-il des conseils nutritionnels ?"
+                  answer="Oui, vous pouvez accéder à des nutritionnistes certifiés pour des conseils personnalisés sur votre alimentation."
                 />
                 <FaqItem 
                   itemNum="eight"
-                  question="How can I delete my account and data?"
-                  answer={
-                    <span>
-                      Within the app you can find a <strong>Delete Account</strong> link under settings which will delete your account and all related data. For full instructions <Link href="/delete-account">view this page.</Link>
-                    </span>
-                  }
+                  question="Comment puis-je gérer mon abonnement aux salles de sport ?"
+                  answer="FitConnect vous permet de centraliser et de gérer facilement votre abonnement aux salles de sport directement depuis l'application."
                 />
               </div>
             </div>
@@ -204,7 +200,7 @@ export default function Home() {
         </div>
 
         <div id={styles.section_wait_list}>
-          <h2 className='h2-lg my-lg text-center text-primary'>Do More With Your Voice</h2>
+          <h2 className='h2-lg my-lg text-center text-primary'>Votre Coach, Votre Communauté, Votre Succès !</h2>
           < AppLinks />
         </div>
       </main>
