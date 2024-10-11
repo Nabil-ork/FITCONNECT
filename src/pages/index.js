@@ -21,7 +21,7 @@ export default function Home() {
 
 
          <div id={styles.section_reviews}>
-          <h2 className="h2-lg my-lg text-center">What People Are Saying</h2>
+          <h2 className="h2-lg my-lg text-center">Ce Que Disent Les Gens</h2>
           <div className="container">
             <div className="row">
               <Review 
@@ -121,7 +121,7 @@ export default function Home() {
         </div>
 
         <div id={styles.section_use_cases}>
-          <h2 className="h2-lg my-lg text-center">Ways To Use Roads</h2>
+          <h2 className="h2-lg my-lg text-center">Moyens d'Utilisation FitConnect</h2>
           <div className="container">
             <div className="row">
               <UseCase 
