@@ -49,17 +49,9 @@ button.accordion-button:not(.collapsed) {
   border-color: #212529;
 }
 
-.youtube-video {
-  aspect-ratio: 16 / 9;
-  width: 90%;
-  position: relative;
-  z-index: 3;
-  border-radius: 20px;
-}
-
 .bg-graident {
-  background: rgb(22, 130, 94);
-  background: radial-gradient(circle, rgba(22, 130, 94, 1) 0%, rgba(18, 122, 87, 1) 30%, rgba(33, 95, 74, 1) 100%);
+  background: rgb(130, 22, 22);
+  background: radial-gradient(circle, rgba(130, 22, 22, 1) 0%, rgba(122, 18, 18, 1) 30%, rgba(95, 33, 33, 1) 100%);
 }
 
 .social-icon svg:hover {
