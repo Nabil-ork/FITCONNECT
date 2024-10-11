@@ -12,7 +12,7 @@ class Hero extends Component {
         <div id={styles.section_headline_container}>
           <div id={styles.section_headline}>
             
-              </div>
+              
 
             <nav className="navbar text-center text-md-left">
               <Link className="navbar-brand mx-auto mx-md-4" href="/">
