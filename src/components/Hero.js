@@ -60,7 +60,7 @@ class Hero extends Component {
                   className='phone_shadow mt-5 d-none d-md-block'
                 />
             </div>
-          </div>
+          
         </div>
       </>
     );
