@@ -20,7 +20,7 @@ class AppLinks extends Component {
       <div className="my-3 mx-auto text-center">
         <Link href={appleLink} onClick={ () => this.trackClickGA("AppStoreLinkClick") }>
           <Image 
-            src="/images/download_apple.png"
+            src="images/download_apple.png"
             alt="Download Roads on the App Store"
             height={50}
             width={150}
@@ -29,7 +29,7 @@ class AppLinks extends Component {
         </Link>
         <Link href={googleLink} onClick={ () => this.trackClickGA("GooglePlayLinkClick") }>
           <Image 
-            src="/images/download_google.png"
+            src="images/download_google.png"
             alt="Download Roads on the Play Store"
             height={50}
             width={150}
