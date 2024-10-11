@@ -67,7 +67,7 @@ export default function Home() {
                 <div className={`${styles.backsplash} mx-auto`}></div>
                 <Image 
                   src="images/phones/device_15_player_simple2.png" 
-                  alt="Screenshot of FitConnect app s."
+                  alt="Screenshot of FitConnect app ."
                   height={400}
                   width={200}
                   className={`${styles.backsplash_image} phone_shadow`}
@@ -95,7 +95,7 @@ export default function Home() {
               </div>
                <div className='col-md-6 col-lg-4 my-auto order-md-first text-center text-md-start'>
                 <h3>Posts Communautaires</h3>
-                <p>vous pouvez facilement faire défiler et voir les posts des autres utilisateurs. Partagez et inspirez-vous de la communauté !</p>
+                <p>Vous pouvez facilement faire défiler et voir les posts des autres utilisateurs. Partagez et inspirez-vous de la communauté !</p>
               </div>
             </div>
 
@@ -112,8 +112,8 @@ export default function Home() {
               </div>
 
               <div className='col-md-6 col-lg-4 offset-lg-1 my-auto text-center text-md-start'>
-                <h3>CContact Direct</h3>
-                <p>ommuniquez directement avec votre coach via l'application. Posez vos questions, recevez des conseils personnalisés et restez motivé tout au long de votre parcours fitness !</p>
+                <h3>Contact Direct</h3>
+                <p>Communiquez directement avec votre coach via l'application. Posez vos questions, recevez des conseils personnalisés et restez motivé tout au long de votre parcours fitness !</p>
               </div>
             </div>
 
