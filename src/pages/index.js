@@ -55,14 +55,7 @@ export default function Home() {
         </div>
 
         <div className='text-center py-5 mt-5 bg-graident'>
-          <Link href="#">
-            /*<Image 
-              src=""
-              alt="Top Telecom startups in Virginia"
-              height={60}
-              width={291}
-            />*/
-          </Link>
+
         </div>
  
         <div id={styles.section_features}>
